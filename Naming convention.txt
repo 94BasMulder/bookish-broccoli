@@ -1,0 +1,9 @@
+Classes: Capital start each word
+Privates: lowercase start, following words Capital start
+Public: Capital each word
+
+
+Order:
+Vars
+Constructors
+Methods --> private followed by public
