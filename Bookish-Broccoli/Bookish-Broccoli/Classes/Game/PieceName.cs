@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bookish_Broccoli.Classes.Game
 {
-    public class Board
-    {
-        public Player CurrentPlayer { get; set; }
-        public List<string> MoveList { get; set; }
+    public enum PieceType{
+        Bishop, King, Knight, Pawn, Queen, Rook
     }
 }
